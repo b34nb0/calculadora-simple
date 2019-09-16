@@ -3,31 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Calculadora Simple</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Iceland|Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
-    <div class="calculator">
+    <div class="calculator container">
       <p class="screen">0</p>
       <div class="pad">
-        <button class="clear">c</button> <br>
-        <button class="number">7</button>
-        <button class="number">8</button>
-        <button class="number">9</button>
-        <button class="operator">÷</button> <br>
-        <button class="number">4</button>
-        <button class="number">5</button>
-        <button class="number">6</button>
-        <button class="operator">×</button> <br>
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
-        <button class="operator">+</button> <br>
-        <button class="point">.</button>
-        <button class="number">0</button>
-        <button class="equal">=</button>
-        <button class="operator">-</button> <br>
+        <table>
+          <tr>
+            <td><button class="clear">c</button></td>
+            <td><button class="log-btn">log</button></td>
+            <td><button class="power-btn">^</button></td>
+            <td><button class="operator">÷</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="sin-btn">sin</button></td>
+            <td><button class="cos-btn">cos</button></td>
+            <td><button class="operator">×</button></td>
+          </tr>
+          <tr>
+            <td><button class="number">7</button></td>
+            <td><button class="number">8</button></td>
+            <td><button class="number">9</button></td>
+            <td><button class="operator">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="number">4</button></td>
+            <td><button class="number">5</button></td>
+            <td><button class="number">6</button></td>
+            <td><button class="operator">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="number">1</button></td>
+            <td><button class="number">2</button></td>
+            <td><button class="number">3</button></td>
+            <td rowspan="2"><button class="equals">=</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="number">0</button></td>
+            <td><button class="point">.</button></td>
+          </tr>
+        </table>
+
       </div>
     </div>
 

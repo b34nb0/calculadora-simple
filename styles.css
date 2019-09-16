@@ -8,14 +8,29 @@ body {
   background-color: #000;
 }
 
+table {
+  width: 80%;
+  margin: auto;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
 button {
-  height: 70px;
-  width: 70px;
+  height: 100%;
+  width: 100%;
   background-color: #efefef;
-  border-radius: 35%;
+  border-radius: 15px;
   font-size: 2.5rem;
-  border: none;
-  margin: 5px;
+  border: 2px solid;
+  margin: 3px;
+}
+
+button:active {
+  background-color: #555;
 }
 
 footer {
@@ -25,6 +40,7 @@ footer {
 }
 
 footer p{
+  margin: 0;
   padding: 20px;
   background-color: #fa8072;
   color: #fff;
@@ -33,19 +49,23 @@ footer p{
   text-align: center;
 }
 
+.container {
+  padding: 0;
+}
+
 .calculator {
   border: 2px solid #fff;
   background-color: #333;
   margin: 50px auto;
   width: 500px;
-  height: 550px;
+  height: 600px;
   border: 2px solid #efefef;
   border-radius: 2%;
   text-align: center;
 }
 
 .screen {
-  border-radius: 35% 10% 0 0;
+  border-radius: 10px 10px 0 0;
   background-color: #1f1f1f;
   color: #fff;
   font-size: 5rem;
@@ -54,7 +74,8 @@ footer p{
 }
 
 .pad {
-  margin-top: 15px;
+  margin: 15px 0;
+
 }
 
 .operator {
@@ -63,7 +84,6 @@ footer p{
 
 .clear {
   position: relative;
-  left: -122px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
